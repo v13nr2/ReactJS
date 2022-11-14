@@ -13,7 +13,7 @@ export const authLogin = async ({username, password}) => {
         username: username,
         password: password,
       },{
-				headers: {'x-api-key': 'B1740A5A0C55839D3EC863C70D880E89', 'content-type': 'application/x-www-form-urlencoded'},
+				headers: {'x-api-key': 'FC7BA3580943B30E2C007217FFBAE7B2', 'content-type': 'application/x-www-form-urlencoded'},
 			  })
       .then((response) => {
         return response.data;
